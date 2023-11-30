@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		092E66C62B18B0F000FBB04E /* MarvellFilmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66C52B18B0F000FBB04E /* MarvellFilmsApp.swift */; };
-		092E66C82B18B0F000FBB04E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66C72B18B0F000FBB04E /* ContentView.swift */; };
 		092E66CA2B18B0F200FBB04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092E66C92B18B0F200FBB04E /* Assets.xcassets */; };
-		092E66CD2B18B0F200FBB04E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092E66CC2B18B0F200FBB04E /* Preview Assets.xcassets */; };
+		092E66D42B18B18F00FBB04E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66D32B18B18F00FBB04E /* Post.swift */; };
+		092E66D62B18B77D00FBB04E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66D52B18B77D00FBB04E /* InfoView.swift */; };
+		092E66D82B18B95000FBB04E /* InfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66D72B18B95000FBB04E /* InfoRowView.swift */; };
+		092E66DA2B18BB7500FBB04E /* InfoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66D92B18BB7500FBB04E /* InfoDetailsView.swift */; };
+		092E66DD2B18C32500FBB04E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092E66DC2B18C32500FBB04E /* Preview Assets.xcassets */; };
+		092E66DF2B18C3F600FBB04E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66DE2B18C3F600FBB04E /* ContentView.swift */; };
+		092E66E12B18C50600FBB04E /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66E02B18C50600FBB04E /* HelloView.swift */; };
+		092E66E32B18C5C000FBB04E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092E66E22B18C5C000FBB04E /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		092E66C22B18B0F000FBB04E /* MarvellFilms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvellFilms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		092E66C52B18B0F000FBB04E /* MarvellFilmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvellFilmsApp.swift; sourceTree = "<group>"; };
-		092E66C72B18B0F000FBB04E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		092E66C92B18B0F200FBB04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		092E66CC2B18B0F200FBB04E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		092E66D32B18B18F00FBB04E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		092E66D52B18B77D00FBB04E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		092E66D72B18B95000FBB04E /* InfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRowView.swift; sourceTree = "<group>"; };
+		092E66D92B18BB7500FBB04E /* InfoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailsView.swift; sourceTree = "<group>"; };
+		092E66DC2B18C32500FBB04E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		092E66DE2B18C3F600FBB04E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		092E66E02B18C50600FBB04E /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		092E66E22B18C5C000FBB04E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +64,23 @@
 			isa = PBXGroup;
 			children = (
 				092E66C52B18B0F000FBB04E /* MarvellFilmsApp.swift */,
-				092E66C72B18B0F000FBB04E /* ContentView.swift */,
+				092E66DE2B18C3F600FBB04E /* ContentView.swift */,
+				092E66D52B18B77D00FBB04E /* InfoView.swift */,
+				092E66D72B18B95000FBB04E /* InfoRowView.swift */,
+				092E66D92B18BB7500FBB04E /* InfoDetailsView.swift */,
+				092E66E02B18C50600FBB04E /* HelloView.swift */,
+				092E66E22B18C5C000FBB04E /* SettingsView.swift */,
+				092E66D32B18B18F00FBB04E /* Post.swift */,
 				092E66C92B18B0F200FBB04E /* Assets.xcassets */,
-				092E66CB2B18B0F200FBB04E /* Preview Content */,
+				092E66DB2B18C32500FBB04E /* Preview Content */,
 			);
 			path = MarvellFilms;
 			sourceTree = "<group>";
 		};
-		092E66CB2B18B0F200FBB04E /* Preview Content */ = {
+		092E66DB2B18C32500FBB04E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				092E66CC2B18B0F200FBB04E /* Preview Assets.xcassets */,
+				092E66DC2B18C32500FBB04E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092E66CD2B18B0F200FBB04E /* Preview Assets.xcassets in Resources */,
+				092E66DD2B18C32500FBB04E /* Preview Assets.xcassets in Resources */,
 				092E66CA2B18B0F200FBB04E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092E66C82B18B0F000FBB04E /* ContentView.swift in Sources */,
+				092E66D62B18B77D00FBB04E /* InfoView.swift in Sources */,
+				092E66E32B18C5C000FBB04E /* SettingsView.swift in Sources */,
+				092E66D42B18B18F00FBB04E /* Post.swift in Sources */,
+				092E66DF2B18C3F600FBB04E /* ContentView.swift in Sources */,
 				092E66C62B18B0F000FBB04E /* MarvellFilmsApp.swift in Sources */,
+				092E66DA2B18BB7500FBB04E /* InfoDetailsView.swift in Sources */,
+				092E66E12B18C50600FBB04E /* HelloView.swift in Sources */,
+				092E66D82B18B95000FBB04E /* InfoRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

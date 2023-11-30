@@ -1,9 +1,4 @@
-//
-//  MarvellFilmsApp.swift
-//  MarvellFilms
-//
-//  Created by Konstantin Tarasov on 30.11.2023.
-//
+
 
 import SwiftUI
 
