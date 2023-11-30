@@ -1,24 +1,29 @@
-//
-//  ContentView.swift
-//  MarvellFilms
-//
-//  Created by Konstantin Tarasov on 30.11.2023.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView() {
+            
+            InfoView()
+                .tabItem {
+                    Label("Films", systemImage: "film.circle")
+                }
+            
+            HelloView()
+                .tabItem {
+                    Label("Hello", systemImage: "globe")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "menucard")
+                }
         }
-        .padding()
     }
 }
-
+    
 #Preview {
     ContentView()
 }
